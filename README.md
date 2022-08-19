@@ -1,6 +1,10 @@
 # Read these instructions carefully.
 
+
 If you don't, you are likely to mess up the github repository and waste a lot of time from a lot of people (including yourself).
+
+**Do Not clone the starter code repository, that is not what you want to do**
+
 
 # Access Tokens
 
@@ -10,7 +14,7 @@ To avoid typing in your access token all the time, type this in the command line
 and then git will then remember your credentials after the next time you use them.
 
 # startercode
-For a nicely formatted version of this file, go to: https://github.com/psu-ds410/startercode-Fall2022/blob/main/README.md
+For a nicely formatted version of this file, go to: https://github.com/psu-ds410/startercode-Fall2022/blob/master/README.md
 
 This repository contains the starter code for all of the homeworks for DS 410 to be used with Github Classroom.
 
@@ -67,7 +71,7 @@ The command is
 
 ```git clone [source] [destination]```
 
-For this course, your repository will be created after you accept the assignment at https://classroom.github.com/a/oQAaX4zy .
+For this course, your repository will be created after you accept the assignment at https://classroom.github.com/a/vZY3fz_Q .
 The source will be https://github.com/psu-ds410/hw-Fall2022-[github-username].git and you can use ds410hw as the destination. For example, I would clone the homework repository as:
 
 ```git clone https://github.com/psu-ds410/hw-Fall2022-dkifer.git ds410hw```
