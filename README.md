@@ -1,5 +1,5 @@
 # Read these instructions carefully.
-{% assign variableName = "text etc." %}
+{% assign variableName="text etc." %}
 {{variableName}}
 
 
