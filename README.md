@@ -1,6 +1,6 @@
 # Read these instructions carefully.
-{% assign variableName="text etc." %}
-{{variableName}}
+[first link][var 1]
+[var 1]: thing
 
 
 If you don't, you are likely to mess up the github repository and waste a lot of time from a lot of people (including yourself).
