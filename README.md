@@ -36,6 +36,8 @@ Sign into github. Then go here https://classroom.github.com/a/fkG5Chzy and use y
 *   Type **source ./updatestarter** or **git pull staff2 main --allow-unrelated-histories**
 *   If you get a weird message about divergent histories, type **git config pull.rebase false**
 *   If you get a message about merge conflicts, read about how to fix them below, then git push and try again.
+*   (🤦 alert) Do not download the new assignments from github.com. There is a big chance you will download it into the wrong place and will have trouble submitting your code to gradescope as a result. I don't know why someone would prefer the slower and more error prone method of downloading from a website (instead of just running the updatestarter script), but in the past some students have preferred to do things the hard way and incorrectly too.
+
 
 # Git basics
 
