@@ -1,0 +1,6 @@
+# make sure to only edit this file on the cluster to avoid line ending issues
+# run it from the terminal as follows:   source run_wc
+
+python3 wc.py input=input output=output_wc reducers=2
+
+
