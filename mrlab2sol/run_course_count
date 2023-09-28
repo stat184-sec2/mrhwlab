@@ -1,0 +1,2 @@
+python3 course_count.py input=data output=q1 reducers=2
+
