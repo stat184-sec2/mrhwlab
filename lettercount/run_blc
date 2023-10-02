@@ -1,0 +1,10 @@
+# make sure to only edit this file on the cluster to avoid line ending issues
+# run it from the terminal as follows:   source run_blc
+#
+#
+#  we can use one reducer because the total number of keys is very small and because 
+#  we use in memory combining on mappers, so they do not send much data to the reducers
+
+python3 better_lc.py input=data output=output_blc reducers=1
+
+

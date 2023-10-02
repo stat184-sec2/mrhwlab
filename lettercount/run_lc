@@ -1,0 +1,6 @@
+# make sure to only edit this file on the cluster to avoid line ending issues
+# run it from the terminal as follows:   source run_lc
+
+python3 lettercount.py input=data output=output_lc reducers=2
+
+

@@ -1,0 +1,7 @@
+# make sure to only edit this file on the cluster to avoid line ending issues
+# run it from the terminal as follows:   source run_wordstats
+
+# use same number of reducers as we use in the mapper final function for createing a key for each reducer
+python3 wordfreq.py input=data output=output_wordfreq reducers=5
+
+

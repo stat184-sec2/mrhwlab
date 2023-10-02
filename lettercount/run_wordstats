@@ -1,0 +1,6 @@
+# make sure to only edit this file on the cluster to avoid line ending issues
+# run it from the terminal as follows:   source run_wordstats
+
+python3 wordstats.py input=data output=output_ws reducers=5
+
+
