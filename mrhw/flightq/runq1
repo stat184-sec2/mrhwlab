@@ -1,0 +1,4 @@
+hdfs dfs -rm -r /user/$USER/mrq1
+
+python3 q1.py -r hadoop --hadoop-streaming-jar /home2/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.3.6.jar --jobconf mapred.reduce.tasks=3 hdfs:///datasets/flight/flightdata.csv  --output-dir /user/$USER/mrq1 --no-output
+
